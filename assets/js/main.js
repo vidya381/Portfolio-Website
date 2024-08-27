@@ -1,6 +1,11 @@
 document.addEventListener("DOMContentLoaded", function() {
     new SweetScroll({}), particlesJS("particles-js", {
         "particles": {
+            background: {
+                color: {
+                    value: "transparent",
+                }
+            },
             number: {
                 value: 80,
                 density: {

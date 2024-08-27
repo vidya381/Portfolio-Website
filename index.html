@@ -85,57 +85,90 @@
       <!-- Technology Stack #1: Languages -->
       <div class="tech">
         <h2>Languages</h2>
-        <i class="devicon-java-plain-wordmark colored"></i>
-
-        <i class="devicon-azuresqldatabase-plain colored"></i>
-
-        <!-- <i class="devicon-sqldeveloper-plain"></i> -->
-        <!-- <i class="devicon-sqldeveloper-plain colored"></i> -->
-        <i class="devicon-c-plain colored"></i>
-        <i class="devicon-cplusplus-plain colored"></i>
-        <i class="devicon-javascript-plain colored"></i>
-        <i class="devicon-python-plain colored"></i>
+        <div class="logo-grid languages">
+          <i class="devicon-java-plain-wordmark colored"></i>
+          <i class="devicon-azuresqldatabase-plain colored"></i>
+          <i class="devicon-c-plain colored"></i>
+          <i class="devicon-cplusplus-plain colored"></i>
+          <i class="devicon-javascript-plain colored"></i>
+          <i class="devicon-python-plain colored"></i>
+        </div>
         <p>My favorite languages for systems programming, software engineering, and data analysis.</p>
       </div>
-
-      <!-- Technology Stack #2: Front-End -->
+    
+      <!-- Technology Stack #2: Web & Cloud -->
       <div class="tech">
         <h2>Web & Cloud</h2>
-        <i class="devicon-html5-plain-wordmark colored"></i>
-        <i class="devicon-css3-plain-wordmark colored"></i>
-        <!-- <i class="devicon-react-original colored"></i> -->
-        <!-- <i class="devicon-bootstrap-plain colored"></i> -->
-        <i class="devicon-amazonwebservices-plain-wordmark colored"></i>
-        <i class="devicon-azure-plain-wordmark colored"></i>
+        <div class="logo-grid web-cloud">
+          <i class="devicon-html5-plain-wordmark colored"></i>
+          <i class="devicon-css3-plain-wordmark colored"></i>
+          <i class="devicon-amazonwebservices-plain-wordmark colored"></i>
+          <i class="devicon-azure-plain-wordmark colored"></i>
+        </div>
         <p>My preferred technologies for front-end web development and cloud computing.</p>
       </div>
-
-      <!-- Technology Stack #3: Back-End -->
+    
+      <!-- Technology Stack #3: Database -->
       <div class="tech">
         <h2>Database</h2>
-        <i class="devicon-mysql-plain-wordmark colored"></i>
-        <i class="devicon-oracle-original colored"></i>
-        <i class="devicon-dynamodb-plain colored"></i>
-        <i class="devicon-mongodb-plain-wordmark colored"></i>
-        <!-- <i class="devicon-neo4j-plain-wordmark colored"></i> -->
-        <!-- <i class="devicon-postgresql-plain-wordmark colored"></i> -->
+        <div class="logo-grid database">
+          <i class="devicon-mysql-plain-wordmark colored"></i>
+          <i class="devicon-oracle-original colored"></i>
+          <i class="devicon-dynamodb-plain colored"></i>
+          <i class="devicon-mongodb-plain-wordmark colored"></i>
+        </div>
         <p>My preferred databases for back-end software development.</p>
       </div>
-
+    
       <!-- Technology Stack #4: Tools -->
       <div class="tech">
         <h2>Tools</h2>
-        <i class="devicon-git-plain-wordmark colored"></i>
-        <i class="devicon-maven-plain-wordmark colored"></i>
-        <!-- <i class="devicon-jira-plain-wordmark colored"></i> -->
-        <i class="devicon-spring-original-wordmark colored"></i>
-        <i class="devicon-jenkins-line"></i>
-        <i class="devicon-docker-plain-wordmark colored"></i>
-        <i class="devicon-kubernetes-plain colored"></i>
-        <p>My favorite tools for version control, continuous integration and continuous delivery, and container
-          orchestration.</p>
+        <div class="logo-grid tools">
+          <i class="devicon-git-plain-wordmark colored"></i>
+          <i class="devicon-maven-plain-wordmark colored"></i>
+          <i class="devicon-spring-original-wordmark colored"></i>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" alt="Jenkins Logo">
+          <i class="devicon-docker-plain-wordmark colored"></i>
+          <i class="devicon-kubernetes-plain colored"></i>
+        </div>
+        <p>My favorite tools for version control, continuous integration and continuous delivery, and container orchestration.</p>
       </div>
     </div>
+    
+    <style>
+      .tech {
+        margin-bottom: 30px;
+      }
+    
+      .logo-grid {
+        display: grid;
+        grid-gap: 0px;
+        justify-items: center;
+        align-items: center;
+        margin-bottom: 35px;
+      }
+    
+      .logo-grid i, .logo-grid img {
+        font-size: 80px;
+        width: 90px;
+        height: 100px;
+      }
+    
+      .languages {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+      }
+    
+      .web-cloud, .database {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+      }
+    
+      .tools {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+      }
+    </style>
   </section>
 
   <!-- Projects Section -->
@@ -143,6 +176,143 @@
     <div class="user-details">
       <h1>Featured Projects</h1>
     </div>
+
+    <!-- User Project #1: Number Guessing Game -->
+    <div class="user-projects">
+      <div class="images-right">
+        <picture>
+          <source type="image/webp" srcset="./assets/files/img/webp/Number-Guessing-Game.webp" alt="Number Guessing Game" />
+          <img alt="Number Guessing Game1" src="./assets/files/img/jpg/Number-Guessing-Game.jpg" />
+        </picture>
+      </div>
+      <div class="contents" style="text-align: center">
+        <h3>Number Guessing Game</h3>
+        <div>
+          <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/spring.svg"
+            style="filter: invert(57%) sepia(59%) saturate(434%) hue-rotate(78deg) brightness(93%) contrast(88%)" />
+          &nbsp;
+          <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/java.svg"
+            style="filter: invert(21%) sepia(88%) saturate(3107%) hue-rotate(341deg) brightness(89%) contrast(92%)" />
+          &nbsp;
+          <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/javascript.svg"
+            style="filter: invert(96%) sepia(47%) saturate(4151%) hue-rotate(338deg) brightness(100%) contrast(95%)" />
+          &nbsp;
+          <!-- <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/html5.svg"
+            style="filter: invert(27%) sepia(91%) saturate(1352%) hue-rotate(1deg) brightness(96%) contrast(97%)" />
+          &nbsp;
+          <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/css3.svg"
+            style="filter: invert(31%) sepia(91%) saturate(1352%) hue-rotate(184deg) brightness(96%) contrast(97%)" />
+          &nbsp; -->
+          <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/github.svg" />
+        </div>
+        <p style="text-align: justify">
+          <!-- I created a web-based Number Guessing Game using Spring Boot for the backend and HTML/CSS/JavaScript for the frontend. The game features multiple difficulty levels, unique number generation, and intelligent feedback. It showcases my full-stack development skills, including RESTful API design and responsive web interface creation. -->
+          <!-- I developed a web-based Number Guessing Game as a showcase of full-stack development skills. The game challenges players to deduce a randomly generated number across three difficulty levels. It was built using Spring Boot for the backend logic, with RESTful API endpoints handling game state and interactions. The frontend was crafted using HTML5, CSS3, and JavaScript, creating a responsive and intuitive user interface. The project demonstrates proficiency in both backend and frontend technologies, as well as test-driven development practices through comprehensive JUnit tests. -->
+          Welcome to the "Number Oracle," a fun web-based Number Guessing Game that highlights my full-stack development skills! Players are challenged to find a hidden number across three exciting difficulty levels. The easy-to-use frontend, built with HTML5, CSS3, and JavaScript, provides a smooth experience, while the reliable Spring Boot backend handles everything through RESTful APIs. With thorough JUnit testing ensuring everything runs perfectly, this project showcases a seamless blend of frontend and backend technology. Are you ready to take on the Number Oracle? Let the guessing begin!
+        </p>
+        <a class="project-link" target="_blank" href="https://github.com/vidya381/Number-Guessing-game">Check it out!</a>
+      </div>
+    </div>
+
+    <!-- User Project #2: Temperature Converter -->
+    <div class="user-projects">
+      <div class="images-left">
+        <picture>
+          <source type="image/webp" srcset="./assets/files/img/webp/Temperature-Converter.webp" alt="Temperature Converter" />
+          <img alt="Temperature Converter" src="./assets/files/img/jpg/Temperature-Converter.jpg" />
+        </picture>
+      </div>
+      <div class="contents-right" style="text-align: center">
+        <h3>Temperature Converter</h3>
+        <div>
+          <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/spring.svg"
+            style="filter: invert(57%) sepia(59%) saturate(434%) hue-rotate(78deg) brightness(93%) contrast(88%)" />
+          &nbsp;
+          <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/java.svg"
+            style="filter: invert(21%) sepia(88%) saturate(3107%) hue-rotate(341deg) brightness(89%) contrast(92%)" />
+          &nbsp;
+          <!-- <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/javascript.svg"
+            style="filter: invert(96%) sepia(47%) saturate(4151%) hue-rotate(338deg) brightness(100%) contrast(95%)" />
+          &nbsp; -->
+          <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/html5.svg"
+            style="filter: invert(27%) sepia(91%) saturate(1352%) hue-rotate(1deg) brightness(96%) contrast(97%)" />
+          &nbsp;
+          <!-- <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/css3.svg"
+            style="filter: invert(31%) sepia(91%) saturate(1352%) hue-rotate(184deg) brightness(96%) contrast(97%)" />
+          &nbsp; -->
+          <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/github.svg" />
+        </div>
+        <p style="text-align: justify">
+          <!-- I created a Temperature Converter web application that allows users to convert temperatures between Celsius, Fahrenheit, Kelvin, Rankine, and Réaumur. The project features voice input and output functionality using the Web Speech API, enabling users to speak their temperature queries and hear the results. Additionally, it includes a dark mode for improved usability in different lighting conditions and a graphical thermometer for visual representation of temperature changes. Developed with Spring Boot for the backend and HTML/CSS/JavaScript for the frontend, this project showcases my skills in web development and user experience design. -->
+          I designed a fun web-based Temperature Converter that lets users easily switch between five temperature scales. With voice input and output, you can simply say your conversion, and the app even has a dark mode for comfortable viewing. Built with Spring Boot for the backend and HTML/CSS/JavaScript for the frontend, this project showcases my creativity in making user-friendly applications.
+        </p>
+        <a class="project-link" target="_blank" href="https://github.com/vidya381/Temperature-Convertor">Check it out!</a>
+      </div>
+    </div>
+
+    <!-- User Project #3: Digital Clock -->
+    <div class="user-projects">
+      <div class="images-right">
+        <picture>
+          <source type="image/webp" srcset="./assets/files/img/webp/Digital-Clock.webp" alt="Digital Clock" />
+          <img alt="Digital Clock" src="./assets/files/img/jpg/Digital-Clock.jpg" />
+        </picture>
+      </div>
+      <div class="contents" style="text-align: center">
+        <h3>Digital Clock</h3>
+        <div>
+          <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/spring.svg"
+            style="filter: invert(57%) sepia(59%) saturate(434%) hue-rotate(78deg) brightness(93%) contrast(88%)" />
+          &nbsp;
+          <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/java.svg"
+            style="filter: invert(21%) sepia(88%) saturate(3107%) hue-rotate(341deg) brightness(89%) contrast(92%)" />
+          &nbsp;
+          <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/javascript.svg"
+            style="filter: invert(96%) sepia(47%) saturate(4151%) hue-rotate(338deg) brightness(100%) contrast(95%)" />
+          &nbsp;
+          <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/html5.svg"
+            style="filter: invert(27%) sepia(91%) saturate(1352%) hue-rotate(1deg) brightness(96%) contrast(97%)" />
+          &nbsp;
+          <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/css3.svg"
+            style="filter: invert(31%) sepia(91%) saturate(1352%) hue-rotate(184deg) brightness(96%) contrast(97%)" />
+          &nbsp;
+          <!-- <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/github.svg" /> -->
+        </div>
+        <p style="text-align: justify">
+          Embark on a journey through time with our Digital Clock project, where functionality meets elegance! This web-based clock displays hours, minutes, seconds, the day of the week, and the date. Explore features like a timer, stopwatch, and customizable timezone display, all in a sleek, minimalist design. Powered by Java Spring Boot, this digital clock is a reliable companion and a testament to modern design, ensuring time is always on your side!
+        </p>
+        <a class="project-link" target="_blank" href="https://github.com/vidya381/Digital-Clock">
+          Check it out!
+        </a>
+      </div>
+    </div>
+
+    <!-- Use Project #4: Valuto: Account Management System -->
+    <!-- <div class="user-projects">
+      <div class="images-left">
+        <picture>
+          <source type="image/webp" srcset="./assets/img/webp/Valuto-Account-Management.webp"
+            alt="Valuto: Account Management System" />
+          <img alt="Valuto: Account Management System" src="./assets/img/jpg/Valuto-Account-Management.jpg" />
+        </picture>
+      </div>
+      <div class="contents-right" style="text-align: center">
+        <h3>Valuto: Account Management System</h3>
+        <div>
+          <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/cplusplus.svg"
+            style="filter: invert(22%) sepia(77%) saturate(1486%) hue-rotate(183deg) brightness(101%) contrast(103%)" />
+        </div>
+        <p style="text-align: justify">
+          I developed a CLI system for accounting management and financial statement maintenance. The purpose of the
+          system is to maintain a record of the funds received, used, disseminated and donated by an organization.
+          Details of transactions and maintenance of a budget and tallying of current balance/inventory in cash/kind
+          is incorporated in this system.
+        </p>
+        <a class="project-link" target="_blank" href="https://github.com/AVS1508/Valuto-Account-Management-System">
+          Check it out!
+        </a>
+      </div>
+    </div> -->
 
   </section>
 
