@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 }
             },
             number: {
-                value: 80,
+                value: 100,
                 density: {
                     enable: true,
                     value_area: 800
@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 }
             },
             opacity: {
-                value: 0.5,
+                value: 0.4,
                 random: false,
                 anim: {
                     enable: false,
@@ -53,14 +53,14 @@ document.addEventListener("DOMContentLoaded", function() {
             },
             line_linked: {
                 enable: true,
-                distance: 150,
+                distance: 30,
                 color: "#ffffff",
                 opacity: 0.4,
                 width: 1
             },
             move: {
                 enable: true,
-                speed: 4,
+                speed: 1,
                 direction: "none",
                 random: false,
                 straight: false,
