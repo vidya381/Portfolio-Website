@@ -246,6 +246,7 @@ template {
 }
 
 @-webkit-keyframes pulse {
+
     0%,
     to {
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
@@ -264,6 +265,7 @@ template {
 }
 
 @keyframes pulse {
+
     0%,
     to {
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
@@ -332,7 +334,7 @@ template {
     list-style-type: none;
 }
 
-.fa-ul > li {
+.fa-ul>li {
     position: relative;
 }
 
@@ -4450,6 +4452,10 @@ template {
 .devicon-docker-plain-wordmark.colored,
 .devicon-docker-plain.colored {
     color: #019bc6;
+}
+
+.devicon-graphql-plain.colored {
+    color: #e10098;
 }
 
 .devicon-doctrine-line-wordmark.colored,
