@@ -90,54 +90,60 @@
                 <h2>Languages</h2>
                 <div class="logo-grid languages">
                     <i class="devicon-java-plain-wordmark colored"></i>
-                    <i class="devicon-azuresqldatabase-plain colored"></i>
-                    <i class="devicon-c-plain colored"></i>
-                    <i class="devicon-csharp-plain colored"></i>
-                    <i class="devicon-javascript-plain colored"></i>
                     <i class="devicon-python-plain colored"></i>
+                    <i class="devicon-javascript-plain colored"></i>
+                    <i class="devicon-typescript-plain colored"></i>
+                    <i class="devicon-go-original-wordmark colored"></i>
+                    <i class="devicon-csharp-plain colored"></i>
+                    <i class="devicon-c-plain colored"></i>
+                    <i class="devicon-sqldeveloper-plain colored"></i>
                 </div>
-                <p>My favorite languages for systems programming, software engineering, and data analysis.</p>
+                <p>Core languages for backend systems, microservices, and full-stack development.</p>
             </div>
 
-            <!-- Technology Stack #2: Web & Cloud -->
+            <!-- Technology Stack #2: Frameworks -->
             <div class="tech">
-                <h2>Web & Cloud</h2>
-                <div class="logo-grid web-cloud">
+                <h2>Frameworks</h2>
+                <div class="logo-grid frameworks">
+                    <i class="devicon-spring-original-wordmark colored"></i>
+                    <i class="devicon-react-original colored"></i>
+                    <i class="devicon-nextjs-plain colored"></i>
+                    <i class="devicon-fastapi-plain colored"></i>
                     <i class="devicon-html5-plain-wordmark colored"></i>
                     <i class="devicon-css3-plain-wordmark colored"></i>
+                </div>
+                <p>Frameworks for building scalable web applications and REST APIs.</p>
+            </div>
+
+            <!-- Technology Stack #3: Databases -->
+            <div class="tech">
+                <h2>Databases</h2>
+                <div class="logo-grid databases">
+                    <i class="devicon-postgresql-plain colored"></i>
+                    <i class="devicon-mysql-plain-wordmark colored"></i>
+                    <i class="devicon-mongodb-plain-wordmark colored"></i>
+                    <i class="devicon-oracle-original colored"></i>
+                    <i class="devicon-cassandra-original colored"></i>
+                    <i class="devicon-cosmosdb-plain colored"></i>
+                </div>
+                <p>SQL and NoSQL databases for handling data at scale.</p>
+            </div>
+
+            <!-- Technology Stack #4: Cloud & DevOps -->
+            <div class="tech">
+                <h2>Cloud & DevOps</h2>
+                <div class="logo-grid cloud-devops">
                     <i class="devicon-amazonwebservices-plain-wordmark colored"></i>
                     <i class="devicon-azure-plain-wordmark colored"></i>
-                </div>
-                <p>My preferred technologies for front-end web development and cloud computing.</p>
-            </div>
-
-            <!-- Technology Stack #3: Database -->
-            <div class="tech">
-                <h2>Database</h2>
-                <div class="logo-grid database">
-                    <i class="devicon-mysql-plain-wordmark colored"></i>
-                    <i class="devicon-oracle-original colored"></i>
-                    <!-- <i class="devicon-dynamodb-plain colored"></i> -->
-                    <i class="devicon-graphql-plain colored"></i>
-                    <i class="devicon-mongodb-plain-wordmark colored"></i>
-                </div>
-                <p>My preferred databases for back-end software development.</p>
-            </div>
-
-            <!-- Technology Stack #4: Tools -->
-            <div class="tech">
-                <h2>Tools</h2>
-                <div class="logo-grid tools">
-                    <i class="devicon-git-plain-wordmark colored"></i>
-                    <i class="devicon-maven-plain-wordmark colored"></i>
-                    <i class="devicon-spring-original-wordmark colored"></i>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg"
-                        alt="Jenkins Logo" />
                     <i class="devicon-docker-plain-wordmark colored"></i>
                     <i class="devicon-kubernetes-plain colored"></i>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg"
+                        alt="Jenkins Logo" />
+                    <i class="devicon-apachekafka-original colored"></i>
+                    <i class="devicon-git-plain-wordmark colored"></i>
+                    <i class="devicon-maven-plain-wordmark colored"></i>
                 </div>
-                <p>My favorite tools for version control, continuous integration and continuous delivery, and container
-                    orchestration.</p>
+                <p>Cloud platforms and tools for deployment, orchestration, CI/CD, and data streaming.</p>
             </div>
         </div>
 
@@ -156,23 +162,19 @@
 
             .logo-grid i,
             .logo-grid img {
-                font-size: 80px;
-                width: 90px;
-                height: 100px;
+                font-size: 60px;
+                width: 70px;
+                height: 70px;
             }
 
-            .languages {
-                grid-template-columns: repeat(3, 1fr);
+            .languages,
+            .cloud-devops {
+                grid-template-columns: repeat(4, 1fr);
                 grid-template-rows: repeat(2, 1fr);
             }
 
-            .web-cloud,
-            .database {
-                grid-template-columns: repeat(2, 1fr);
-                grid-template-rows: repeat(2, 1fr);
-            }
-
-            .tools {
+            .frameworks,
+            .databases {
                 grid-template-columns: repeat(3, 1fr);
                 grid-template-rows: repeat(2, 1fr);
             }
@@ -354,10 +356,6 @@
 
         </div>
     </section>
-
-    <footer class="footer">
-        <p>&copy; Vidya Sagar Reddy Desu, 2024</p>
-    </footer>
 
     <!-- Import JS: Particles Theme -->
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
