@@ -1,0 +1,13 @@
+# Project documentation files
+projects/
+
+# macOS system files
+.DS_Store
+**/.DS_Store
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
